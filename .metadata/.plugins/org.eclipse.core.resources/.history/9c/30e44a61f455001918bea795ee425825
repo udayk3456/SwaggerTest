@@ -1,0 +1,22 @@
+package com.app.controller;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class CrudType {
+	@GetMapping("/get")
+	public String get() {
+		return "getType";
+	}
+	public String post() {
+		return "getType";
+	}
+	public String put() {
+		return "getType";
+	}
+	public String delete() {
+		return "getType";
+	}
+
+}
